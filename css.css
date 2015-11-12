@@ -1,0 +1,91 @@
+body {
+    background-image: url(http://alexis-ds.github.io/CheatSheetComplet1/images.jpeg);
+    color: white;
+}
+a {
+    color: white;
+}
+a:focus {
+    outline: 0;
+}
+table {
+    border: 1px solid #201d1d;
+}
+code{
+    background-color: gray;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 1em;
+    width: 15px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+#menu-accordeon {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    width: 500px;
+}
+#menu-accordeon ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+#menu-accordeon li {
+    border-radius: 6px;
+    margin-bottom: 2px;
+    box-shadow: 3px 3px 3px #999;
+    border: solid 1px #333A40;
+}
+#menu-accordeon li li {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .5s;
+    border-radius: 0;
+    background: #444;
+    box-shadow: none;
+    border: none;
+    margin: 0
+}
+#menu-accordeon a {
+    text-decoration: none;
+    padding: 8px 0;
+    font-family: verdana;
+    font-size: 80%;
+}
+#menu-accordeon ul li a, #menu-accordeon li:hover li a {
+    font-size: 70%;
+}
+#menu-accordeon li:hover li {
+    max-height: 2em;
+}
+
+/*mobile first*/
+
+@media screen and (max-width: 320px) {
+    #menu-accordeon {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        width: 200px;
+    }
+}
+@media screen and (min-width: 480px max-width: 550px) {
+#menu-accordeon {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        width: 200px;
+    }
+}
+@media screen and (max-width: 600px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1920px) {}
